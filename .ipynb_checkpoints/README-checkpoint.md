@@ -41,11 +41,11 @@ This project implements a Flask API to provide climate data for Honolulu, Hawaii
 
 3. **Access the Routes**
     - **Home (`/`)**: Displays a welcome message and lists routes.
-    - **Precipitation (`/api/v1.0/precipitation/`)**: Returns precipitation data for the last 12 months.
-    - **Stations (`/api/v1.0/stations/`)**: Lists all stations.
-    - **Temperature Observations (`/api/v1.0/tobs/`)**: Returns TOBS data for the most active station in the last year.
-    - **Temperature by Date (`/api/v1.0/<start_date>/`)**: Returns min, max, and avg temperatures for dates from `start` to the latest.
-    - **Temperature by Date Range (`/api/v1.0/<start_date>/<end_date>/`)**: Returns min, max, and avg temperatures for a specific range.
+    - **Precipitation (`/api/v1.0/precipitation`)**: Returns precipitation data for the last 12 months.
+    - **Stations (`/api/v1.0/stations`)**: Lists all stations.
+    - **Temperature Observations (`/api/v1.0/tobs`)**: Returns TOBS data for the most active station in the last year.
+    - **Temperature by Date (`/api/v1.0/<start>`)**: Returns min, max, and avg temperatures for dates from `start` to the latest.
+    - **Temperature by Date Range (`/api/v1.0/<start>/<end>`)**: Returns min, max, and avg temperatures for a specific range.
 
 ---
 
